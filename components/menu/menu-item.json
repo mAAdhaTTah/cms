@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_menu_menu_items",
+  "info": {
+    "name": "menu_item",
+    "icon": "certificate",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    },
+    "href": {
+      "type": "string"
+    }
+  }
+}

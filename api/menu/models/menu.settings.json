@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "menus",
+  "info": {
+    "name": "Menu",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "menu_items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "menu.menu-item",
+      "required": true
+    },
+    "location": {
+      "type": "enumeration",
+      "enum": [
+        "header"
+      ]
+    }
+  }
+}
