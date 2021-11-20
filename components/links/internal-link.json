@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_links_internal_links",
+  "info": {
+    "name": "Internal Link",
+    "icon": "sign-out-alt",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    },
+    "target": {
+      "model": "page"
+    }
+  }
+}

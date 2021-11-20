@@ -12,17 +12,25 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "menu_items": {
-      "type": "component",
-      "repeatable": true,
-      "component": "menu.menu-item",
-      "required": true
+    "name": {
+      "type": "string",
+      "required": true,
+      "unique": true
     },
     "location": {
       "type": "enumeration",
       "enum": [
         "header"
       ]
+    },
+    "menu_items": {
+      "type": "dynamiczone",
+      "components": [
+        "links.external-link",
+        "links.internal-link",
+        "menu.menu-item"
+      ],
+      "required": true
     }
   }
 }
