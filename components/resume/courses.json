@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_resume_courses",
+  "info": {
+    "name": "course",
+    "icon": "book-reader",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    }
+  }
+}

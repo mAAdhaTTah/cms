@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_resume_languages",
+  "info": {
+    "name": "language",
+    "icon": "pencil-alt",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "language": {
+      "type": "string"
+    },
+    "fluency": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_resume_references",
+  "info": {
+    "name": "reference",
+    "icon": "snowman",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "reference": {
+      "type": "text"
+    }
+  }
+}

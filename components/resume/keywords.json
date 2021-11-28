@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_resume_keywords",
+  "info": {
+    "name": "keyword",
+    "icon": "file-word",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    }
+  }
+}

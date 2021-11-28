@@ -1,0 +1,47 @@
+{
+  "collectionName": "components_resume_projects",
+  "info": {
+    "name": "project",
+    "icon": "building",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "highlights": {
+      "type": "component",
+      "repeatable": true,
+      "component": "resume.highlights"
+    },
+    "keywords": {
+      "type": "component",
+      "repeatable": true,
+      "component": "resume.keywords"
+    },
+    "startDate": {
+      "type": "date"
+    },
+    "endDate": {
+      "type": "date"
+    },
+    "url": {
+      "type": "string"
+    },
+    "roles": {
+      "type": "component",
+      "repeatable": true,
+      "component": "resume.roles"
+    },
+    "entity": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string"
+    }
+  }
+}

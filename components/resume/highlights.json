@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_resume_highlights",
+  "info": {
+    "name": "highlight",
+    "icon": "star",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "text"
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_resume_awards",
+  "info": {
+    "name": "award",
+    "icon": "rainbow",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "date": {
+      "type": "date"
+    },
+    "awarder": {
+      "type": "string"
+    },
+    "summary": {
+      "type": "text"
+    }
+  }
+}

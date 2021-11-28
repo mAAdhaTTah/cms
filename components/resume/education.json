@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_resume_educations",
+  "info": {
+    "name": "education",
+    "icon": "school"
+  },
+  "options": {},
+  "attributes": {
+    "institution": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    },
+    "area": {
+      "type": "string"
+    },
+    "studyType": {
+      "type": "string"
+    },
+    "startDate": {
+      "type": "date"
+    },
+    "endDate": {
+      "type": "date"
+    },
+    "score": {
+      "type": "string"
+    },
+    "courses": {
+      "type": "component",
+      "repeatable": true,
+      "component": "resume.courses"
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_resume_works",
+  "info": {
+    "name": "experience",
+    "icon": "user-injured",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "position": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    },
+    "startDate": {
+      "type": "date"
+    },
+    "endDate": {
+      "type": "date"
+    },
+    "summary": {
+      "type": "text"
+    },
+    "highlights": {
+      "type": "component",
+      "repeatable": true,
+      "component": "resume.highlights"
+    }
+  }
+}

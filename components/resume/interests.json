@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_resume_interests",
+  "info": {
+    "name": "interest",
+    "icon": "brain",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "keywords": {
+      "type": "component",
+      "repeatable": true,
+      "component": "resume.keywords"
+    }
+  }
+}

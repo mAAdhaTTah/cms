@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_resume_locations",
+  "info": {
+    "name": "location",
+    "icon": "location-arrow"
+  },
+  "options": {},
+  "attributes": {
+    "address": {
+      "type": "string"
+    },
+    "postalCode": {
+      "type": "string"
+    },
+    "city": {
+      "type": "string"
+    },
+    "countryCode": {
+      "type": "string"
+    },
+    "region": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "collectionName": "components_resume_basics",
+  "info": {
+    "name": "basics",
+    "icon": "database"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "label": {
+      "type": "string"
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "email": {
+      "type": "email"
+    },
+    "url": {
+      "type": "string"
+    },
+    "summary": {
+      "type": "text"
+    },
+    "location": {
+      "type": "component",
+      "repeatable": false,
+      "component": "resume.location"
+    },
+    "profiles": {
+      "type": "component",
+      "repeatable": true,
+      "component": "resume.profiles"
+    }
+  }
+}

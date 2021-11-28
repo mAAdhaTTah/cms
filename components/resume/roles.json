@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_resume_roles",
+  "info": {
+    "name": "roles",
+    "icon": "allergies"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  }
+}

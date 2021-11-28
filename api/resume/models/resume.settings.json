@@ -1,0 +1,71 @@
+{
+  "kind": "collectionType",
+  "collectionName": "resumes",
+  "info": {
+    "name": "resume",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "basics": {
+      "type": "component",
+      "repeatable": false,
+      "component": "resume.basics"
+    },
+    "work": {
+      "type": "component",
+      "repeatable": true,
+      "component": "resume.work"
+    },
+    "volunteer": {
+      "type": "component",
+      "repeatable": true,
+      "component": "resume.work"
+    },
+    "education": {
+      "type": "component",
+      "repeatable": true,
+      "component": "resume.education"
+    },
+    "awards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "resume.awards"
+    },
+    "publications": {
+      "type": "component",
+      "repeatable": true,
+      "component": "resume.publications"
+    },
+    "skills": {
+      "type": "component",
+      "repeatable": true,
+      "component": "resume.skills"
+    },
+    "languages": {
+      "type": "component",
+      "repeatable": true,
+      "component": "resume.languages"
+    },
+    "interests": {
+      "type": "component",
+      "repeatable": false,
+      "component": "resume.interests"
+    },
+    "references": {
+      "type": "component",
+      "repeatable": false,
+      "component": "resume.references"
+    },
+    "projects": {
+      "type": "component",
+      "repeatable": true,
+      "component": "resume.projects"
+    }
+  }
+}

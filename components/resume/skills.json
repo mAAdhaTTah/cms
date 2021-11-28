@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_resume_skills",
+  "info": {
+    "name": "skill",
+    "icon": "skiing-nordic",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "level": {
+      "type": "string"
+    },
+    "keywords": {
+      "type": "component",
+      "repeatable": true,
+      "component": "resume.keywords"
+    }
+  }
+}

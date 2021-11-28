@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_resume_profiles",
+  "info": {
+    "name": "profile",
+    "icon": "address-card",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "network": {
+      "type": "string"
+    },
+    "username": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    }
+  }
+}
