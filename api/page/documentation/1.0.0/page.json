@@ -601,7 +601,8 @@
             "default": "page",
             "enum": [
               "full_screen",
-              "page"
+              "page",
+              "raw"
             ]
           },
           "body": {
@@ -728,7 +729,8 @@
             "default": "page",
             "enum": [
               "full_screen",
-              "page"
+              "page",
+              "raw"
             ]
           },
           "body": {

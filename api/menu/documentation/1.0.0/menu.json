@@ -628,7 +628,8 @@
                           "type": "string",
                           "enum": [
                             "full_screen",
-                            "page"
+                            "page",
+                            "raw"
                           ]
                         },
                         "body": {
@@ -796,7 +797,8 @@
                           "type": "string",
                           "enum": [
                             "full_screen",
-                            "page"
+                            "page",
+                            "raw"
                           ]
                         },
                         "body": {

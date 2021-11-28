@@ -31,7 +31,8 @@
       "type": "enumeration",
       "enum": [
         "full_screen",
-        "page"
+        "page",
+        "raw"
       ],
       "required": true,
       "default": "page"
